@@ -1,0 +1,27 @@
+import { Notifications, NotificationType, NotificationEvent } from "@twilio/frame-ui";
+export declare const NotificationIds: {
+    PendingReservationsOnLogout: "PendingReservationsOnLogout";
+    PendingReservationsOnActivityStateChange: "PendingReservationsOnActivityStateChange";
+    TransferFailed: "TransferFailed";
+    TaskCannotBeTransferred: "TaskCannotBeTransferred";
+    BrowserVoiceDisabled: "BrowserVoiceDisabled";
+    MicTaken: "MicTaken";
+    MessageSizeExceeded: "MessageSizeExceeded";
+    CannotChangeOtherWorkerActivity: "CannotChangeOtherWorkerActivity";
+    MonitoringFailed: "MonitoringFailed";
+    ChatOrchestrationAddToChatChannelFailed: "ChatOrchestrationAddToChatChannelFailed";
+    ChatOrchestrationDeactivateChatChannelFailed: "ChatOrchestrationDeactivateChatChannelFailed";
+    ChatOrchestrationLeaveChatChannelFailed: "ChatOrchestrationLeaveChatChannelFailed";
+    AudioPlayerDeniedErrorNotificationId: "AudioPlayerDeniedError";
+    AudioPlayerInvalidMediaErrorNotificationId: "AudioPlayerInvalidMediaError";
+    AudioPlayerGenericErrorNotificationId: "AudioPlayerGenericError";
+    QueuesStatsStale: "QueuesStatsStale";
+    FlexUiVersionDeprecated: "FlexUiVersionDeprecated";
+    FlexSessionExpired: "FLEX_SESSION_EXPIRED";
+    RequestBrowserNotificationPermissions: "RequestBrowserNotificationPermissions";
+    IncomingTask: "IncomingTask";
+    UNKNOWN: "UNKNOWN";
+    NewChatMessage: "NewChatMessage";
+};
+export { Notifications, NotificationType, NotificationEvent };
+export declare const registerToNotifications: () => void;
